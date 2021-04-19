@@ -11,4 +11,8 @@ public class HelloWorldController {
         return "index"; // when "/" request come, return index.html
     }
 
+    @GetMapping("/hi")
+    public String sayHi() {
+        return "index";
+    }
 }
